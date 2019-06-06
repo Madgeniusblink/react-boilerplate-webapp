@@ -1,10 +1,10 @@
 # Git Commands
 
-Git init - Create a new git repo
-Git status - view the changes to your project code
-Git add - Add files to staging
-Git commit - creates a new commit with files from staging area
-Git log - view recent commits
+Git init - Create a new git repo <br>
+Git status - view the changes to your project code <br>
+Git add - Add files to staging <br>
+Git commit - creates a new commit with files from staging area <br>
+Git log - view recent commits <br>
 
 
 // Start with firebase.
