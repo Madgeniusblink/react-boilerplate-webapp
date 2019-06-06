@@ -7,7 +7,7 @@ Git commit - creates a new commit with files from staging area <br>
 Git log - view recent commits <br>
 
 
-// Start with firebase.
+# Start with firebase.
 1. create 2 enviroment files <br>
   - .env.development <br>
   - .env.test
@@ -20,3 +20,15 @@ Git log - view recent commits <br>
     FIREBASE_MESSAGING_SENDER_ID=854323454345
     FIREBASE_ID=1:345654345432:web:234567876543
   
+# View your new webapp on your localhost
+yarn run dev-server <br>
+"dev-server": "webpack-dev-server",
+
+# All commands
+yarn run <command> <br>
+
+    "build:prod": "webpack -p --env production",
+    "dev-server": "webpack-dev-server",
+    "test": "cross-env NODE_ENV=production jest --config=jest.config.json",
+    "start": "node server/server.js",
+    "heroku-postbuild": "yarn run build:prod"
