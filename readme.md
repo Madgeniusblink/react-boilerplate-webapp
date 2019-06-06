@@ -11,7 +11,7 @@ Git log - view recent commits
 1. create 2 enviroment files
   - .env.development
   -.env.test
-    * then add your firebase credentials to them in the following format:
+    * then add your firebase credentials to them in the following format: <br>
     FIREBASE_API_KEY=AIzafAdim8Danr
     FIREBASE_AUTH_DOMAIN=app-name-name-df74b.firebaseapp.com
     FIREBASE_DATABSE_URL=https://yourappname.firebaseio.com
