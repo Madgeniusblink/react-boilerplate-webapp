@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Madgenius Dashboard Page 1`] = `
+<div>
+  <div>
+    MadGeniusBlink dashboard in creation...
+  </div>
+</div>
+`;

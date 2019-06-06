@@ -1,0 +1,26 @@
+.box-layout {
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.966);
+    background-image: url('/images/Pacman-loader.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+    
+}
+
+.box-layout__box {
+    background: fade-out($color: rgba(255, 255, 255, 0.918), $amount: .15);
+    border-radius: 3px;
+    padding: $l-size $m-size;
+    text-align: center;
+    width: 30rem;
+}
+
+.box-layout__title {
+    color: rgba(190, 0, 0, 0.678);
+    margin: 0 0 $m-size 0;
+    line-height: 1;
+}
