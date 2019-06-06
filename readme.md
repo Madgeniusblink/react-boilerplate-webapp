@@ -8,9 +8,9 @@ Git log - view recent commits
 
 
 // Start with firebase.
-1. create 2 enviroment files
-  - .env.development
-  -.env.test
+1. create 2 enviroment files <br>
+  - .env.development <br>
+  - .env.test
     * then add your firebase credentials to them in the following format: <br>
     FIREBASE_API_KEY=AIzafAdim8Danr
     FIREBASE_AUTH_DOMAIN=app-name-name-df74b.firebaseapp.com
